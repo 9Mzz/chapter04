@@ -6,38 +6,34 @@ public class PointList {
 
 	// 필드
 	private Point[] pArray;
-	private int crtPoint;
+	private int crtPos;
 
 	// 생성자
 	public PointList() {
 		this.pArray = new Point[3];
-		this.crtPoint = 0;
+		this.crtPos = 0;
 	}
 
-	public PointList(Point[] pArray, int crtPoint) {
-		this.pArray = pArray;
-		this.crtPoint = crtPoint;
-	}
-	// 메소드
+	// 메소드 g/s
 
 	// 메소드 일반
 	public void add(Point p) {
-		pArray[crtPoint] = p;
-		crtPoint++;
+		pArray[crtPos] = p;
+		crtPos++;
 	}
-	
+
 	public Point get(int index) {
 		Point result = pArray[index];
 		return result;
 	}
+
 	public int size() {
-		return crtPoint;
+		return crtPos;
 	}
 
 	@Override
 	public String toString() {
-		return "PointList [pArray=" + Arrays.toString(pArray) + ", crtPoint=" + crtPoint + "]";
+		return "PointList [pArray=" + Arrays.toString(pArray) + ", crtPos=" + crtPos + "]";
 	}
-	
 
 }
