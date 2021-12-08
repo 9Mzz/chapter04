@@ -19,7 +19,7 @@ public class Ex04 {
 		pSet.add(p02);
 		pSet.add(p03);
 		
-		System.out.println(pSet.toString());
+		System.out .println(pSet.toString());
 		System.out.println(pSet.add(p01));
 		System.out.println(pSet.add(p02));
 		System.out.println(pSet.add(p03));
