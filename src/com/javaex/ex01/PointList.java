@@ -7,6 +7,7 @@ public class PointList {
 	// 필드
 	private Point[] pArray;
 	private int crtPos;
+	private int index;
 
 	// 생성자
 	public PointList() {
