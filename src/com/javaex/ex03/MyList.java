@@ -1,10 +1,7 @@
-
 package com.javaex.ex03;
 
 import java.util.Arrays;
-//Object를 담는 형식으로 변경
-//Object는 모든 클래스의 조상
-//MyList.java는 어떠한 클래스가 와도 관리할 수 있다.
+
 //T  --> Point     Circle
 public class MyList<T> {
 	
@@ -43,6 +40,5 @@ public class MyList<T> {
 		return "MyList [oArray=" + Arrays.toString(oArray) + ", crtPos=" + crtPos + "]";
 	}
 	
-
 
 }
