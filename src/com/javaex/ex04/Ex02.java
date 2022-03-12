@@ -49,6 +49,7 @@ public class Ex02 {
 		pSet.add(p02);
 		pSet.add(p03);
 		pSet.add(p04);
+		pSet.add(p05);
 		
 		//pSet.remove(p04);
 		//pSet.remove(p02);

@@ -15,7 +15,7 @@ public class Ex04 {
 		System.out.println(p02.hashCode());
 		System.out.println(p03.hashCode());
 		
-		Set pSet = new HashSet<Point>();
+		Set<Point> pSet = new HashSet<Point>();
 		
 		pSet.add(p01);
 		pSet.add(p02);

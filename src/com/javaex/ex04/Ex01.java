@@ -1,6 +1,7 @@
 package com.javaex.ex04;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Ex01 {
@@ -14,7 +15,7 @@ public class Ex01 {
 		
 		//섞어쓰기 한 이유???
 		List<Point> pList = new ArrayList<Point>();
-		//List<Point> pList = new LinkedList<Point>();
+//		List<Point> pList = new LinkedList<Point>();
 		
 		pList.add(p01);
 		pList.add(p02);

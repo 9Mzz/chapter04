@@ -18,14 +18,18 @@ public class Ex05 {
 		pMap.put("정우성", p02);
 		pMap.put("이효리", p03);
 		
+		System.out.println("pMap.toString()-----------------");
 		System.out.println(pMap.toString());
 		
-		//System.out.println(pMap.get("정우성").getX());
-		//System.out.println(pMap.size());
+		System.out.println("pMap.get(\"정우성\").getX()-----------------");
+		System.out.println(pMap.get("정우성").getX());
+		System.out.println("pMap.size()-----------------");
+		System.out.println(pMap.size());
 		
 		//키셋 구하기
 		Set<String> keySet = pMap.keySet();
 		
+		System.out.println("pMap.get(key).getX()-----------------");
 		for(String key : keySet ) {
 			System.out.println(pMap.get(key).getX());
 		}
@@ -38,6 +42,7 @@ public class Ex05 {
 		boardMap.put("regDate", "2021-12-08");
 		boardMap.put("content", "게시판 내용입니다.");
 		
+		System.out.println("boardMap.get(\"title\")-----------------");
 		System.out.println(boardMap.get("title"));
 		
 		
